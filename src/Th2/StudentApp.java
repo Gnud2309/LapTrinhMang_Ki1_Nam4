@@ -30,7 +30,7 @@ public class StudentApp {
             mainFrame.add(searchByNameButton);
 
             // Tìm kiếm theo GPA
-            JButton searchByGPAButton = new JButton("Tìm kiếm theo GPA");
+            JButton searchByGPAButton = new JButton("Tìm kiếm theo GPA.");
             searchByGPAButton.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
@@ -40,7 +40,7 @@ public class StudentApp {
             mainFrame.add(searchByGPAButton);
 
             // Cập nhật sinh viên
-            JButton updateStudentButton = new JButton("Cập nhật sinh viên");
+            JButton updateStudentButton = new JButton("Cập nhật sinh viên.");
             updateStudentButton.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
