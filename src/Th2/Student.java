@@ -3,12 +3,12 @@ package Th2;
 import java.io.Serializable;
 
 public class Student implements Serializable {
-    private int idSV; // Mã sinh viên
-    private String maSV; // Mã sinh viên
-    private String hoTen; // Họ tên sinh viên
-    private int namSinh; // Năm sinh
-    private String queQuan; // Quê quán
-    private float GPA; // Điểm trung bình
+    private int idSV;
+    private String maSV;
+    private String hoTen;
+    private int namSinh;
+    private String queQuan;
+    private float GPA;
 
     // Constructor
     public Student(int idSV, String maSV, String hoTen, int namSinh, String queQuan, float GPA) {

@@ -61,7 +61,7 @@ public class UpdateStudentApp extends JFrame {
                 int id = Integer.parseInt(updateIDField.getText());
                 String name = updateNameField.getText();
                 int year = Integer.parseInt(updateYearField.getText());
-                String address = updateAddressField.getText(); // Get address
+                String address = updateAddressField.getText();
                 float gpa = Float.parseFloat(updateGPAField.getText());
                 Student updatedStudent = new Student(id, "SV" + id, name, year, address, gpa);
                 studentService.updateStudent(updatedStudent);

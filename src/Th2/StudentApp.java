@@ -62,10 +62,10 @@ public class StudentApp {
             });
 
             // Thay đổi màu cho các nút
-            searchByNameButton.setBackground(new Color(100, 149, 237)); // Cornflower Blue
-            searchByGPAButton.setBackground(new Color(100, 149, 237)); // Cornflower Blue
-            updateStudentButton.setBackground(new Color(100, 149, 237)); // Cornflower Blue
-            exitButton.setBackground(new Color(255, 69, 0)); // Red-Orange
+            searchByNameButton.setBackground(new Color(232, 232, 232));
+            searchByGPAButton.setBackground(new Color(245, 247, 251));
+            updateStudentButton.setBackground(new Color(252, 253, 255));
+            exitButton.setBackground(new Color(234, 228, 226));
 
             // Thêm các nút vào panel
             buttonPanel.add(searchByNameButton);
